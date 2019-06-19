@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetilActivity">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img_item"
+        android:layout_marginBottom="4dp"
+        android:layout_gravity="center"
+        tools:src="@color/colorAccent"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="INFO"
+        android:textColor="#000"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lahir : "/>
+
+        <TextView
+            android:id="@+id/tvlahir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="LAHIR"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Klub Bermain : "/>
+        <TextView
+            android:id="@+id/tvwafat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="WAFAT"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tinggi : "/>
+        <TextView
+            android:id="@+id/tvtinggi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="TINGGI"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+</LinearLayout>

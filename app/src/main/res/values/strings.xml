@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">AndroidPemula</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="with_cardview">with CardView</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+
+    <array name="info">
+        <item>Ini adalah info dari Presiden Pertama Indonesia yaitu Soekarno.</item>
+        <item>Ini adalah info dari Presiden Kedua Indonesia yaitu Soeharto.</item>
+        <item>Ini adalah info dari Presiden Ketiga Indonesia yaitu Habibie.</item>
+        <item>Ini adalah info dari Presiden Keempat Indonesia yaitu Abdurrahman Wahid.</item>
+        <item>Ini adalah info dari Presiden Kelima Indonesia yaitu Megawati.</item>
+        <item>Ini adalah info dari Presiden Keenam dan Ketujuh Indonesia yaitu Soesilo Bambang
+            Yudhoyono.
+        </item>
+        <item>Ini adalah info dari Presiden Kedelapan Indonesia yaitu Joko Widodo.</item>
+    </array>
+
+    <array name="lahir">
+        <item>Surabaya, 1 Juni 1901</item>
+        <item>Surabaya, 2 Juni 1902</item>
+        <item>Surabaya, 3 Juni 1903</item>
+        <item>Surabaya, 4 Juni 1904</item>
+        <item>Surabaya, 5 Juni 1905</item>
+        <item>Surabaya, 6 Juni 1906</item>
+        <item>Surabaya, 7 Juni 1907</item>
+    </array>
+    <array name="wafat">
+        <item>Surabaya, 1 Juni 1970</item>
+        <item>Surabaya, 2 Juni 2010</item>
+        <item>-</item>
+        <item>Surabaya, 3 Juni 2012</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </array>
+    <array name="tinggi">
+        <item>1.72m</item>
+        <item>1.73m</item>
+        <item>1.74m</item>
+        <item>1.75m</item>
+        <item>1.76m</item>
+        <item>1.77m</item>
+        <item>1.78m</item>
+    </array>
+</resources>
